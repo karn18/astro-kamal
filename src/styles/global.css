@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Noto+Sans+Thai&family=Noto+Sans+Thai+Looped&family=Space+Grotesk&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold p-6 border-2 border-black;
+  }
+
+  main {
+    @apply p-6;
+  }
+}
